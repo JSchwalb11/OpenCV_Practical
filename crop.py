@@ -15,4 +15,6 @@ cv2.imshow("Original", image)
 #image cropping starts at 30,240(h,w) and ends at 120,335(h,w)
 cropped = image[30:120, 240:335]
 cv2.imshow("T-Rex Face", cropped)
+print("Testing github push successful")
+
 cv2.waitKey(0)
